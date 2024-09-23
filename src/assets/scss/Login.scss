@@ -1,0 +1,100 @@
+.wrap8 {
+  width: 100%;
+  .login_text {
+    margin-top: 30px;
+    border-bottom: 1px solid #ccc;
+    h2 {
+      margin-bottom: 30px;
+    }
+  }
+  .text_box {
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+  .tab {
+    position: relative;
+    dl {
+      /* display: flex; */
+      .button {
+        display: flex;
+        button {
+          display: block;
+          width: 200px;
+          line-height: 40px;
+          text-align: center;
+          background-color: #1c5a94;
+          border-radius: 10px 10px 0 0;
+          border: none;
+          color: #fff;
+          &.active {
+            background-color: #f5f7fa;
+            color: #1c5a94;
+            border: none;
+            border-bottom: none;
+            font-weight: bold;
+          }          
+        }
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+      dd {
+        &:nth-of-type(2)>table {
+          display: none;
+        }
+        &:nth-of-type(3)>table {
+          display: none;
+        }
+        &:nth-of-type(4)>table {
+          display: none;
+        }
+        table {
+          background-color: #f5f7fa;
+          padding: 50px 0;
+          position: relative;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: 400px;
+          /* border: 2px solid #1c5a94; */
+          tr {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap : 20px;
+            td {
+              display: block;
+              position: relative;
+              button {
+                background-color:#1c5a94;
+                color: #fff;
+                border: none;
+                width: 278px;
+                height: 58px;
+                font-size: 18px;
+                font-weight: bold;
+                transition: .3s;
+                &:hover {
+                  background-color: #f5f7fa;
+                  color: #828282;
+                  /* border: 2px solid #1c5a94; */
+                }
+              }
+              input {
+                width: 278px;
+                height: 35px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .check_wrap {
+    /* margin: 50px 0; */
+    padding: 30px 0;
+    /* background-color: #f5f7fa; */
+    border-radius: 10px;
+    line-height: 1.5;
+  }
+}

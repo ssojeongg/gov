@@ -1,0 +1,116 @@
+.wrap4 {
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    .sub_box {
+      margin-top: 20px;
+      width: 840px;
+      height: 220px;
+      border-radius: 10px;
+      .text_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        i {
+          margin-right: 20px;
+        }
+      }
+      .sub_boxin {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        .sub_in {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+           &::after {
+            content: '';
+            position: absolute;
+            left: -60px;
+            top: 24px;
+            width: 1px;
+            height: calc(100% - 48px);
+            background-color: #dbe6f7;
+          }
+          &:first-child::after {
+            content:none;
+          }
+          .img_box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #f5f7fa;
+            overflow: hidden;
+            cursor: pointer;
+            &:hover>a>img {
+              transform: scale(1.2);
+            }
+            img {
+              transition: .3s;
+            }
+          }
+          a {
+            display: block;
+            margin-top: 5px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .link_box {
+      margin-top: 20px;
+      width: 400px;
+      height: 220px;
+      border-radius: 10px;
+      background-color: #f5f7fa;
+      .link_in {
+        display: flex;
+        width: 400px;
+        height: 220px;
+        flex-wrap: wrap;
+        position: relative;
+        .link_img {
+          width: 50%;
+          height: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          transition: .3s;
+          &::before {
+            content: '';
+            position: absolute;
+            left: 24px;
+            top: 50%;
+            width: calc(100% - 48px);
+            height: 1px;
+            background-color: #e1edfd;
+          }
+          &::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 24px;
+            width: 1px;
+            height: calc(100% - 48px);
+            background-color: #e1edfd;
+          }
+          &:hover a:last-child {
+            text-decoration: underline;
+            text-decoration-color: #727272;
+            text-underline-offset: 5px;
+           }
+        }
+          a {
+            display: block;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
