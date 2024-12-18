@@ -10,10 +10,14 @@
         </div>
         <div class="swiper_box">
           <swiper
+<<<<<<< HEAD
     :breakpoints="{
       767:{slidesPerView:'7'},
       300:{slidesPerView:'3'},
       }"
+=======
+    :slides-per-view="7"
+>>>>>>> 2f78274e78f826f0689cb8adfa7538b20e1b8971
     :space-between="20"
         :modules="modules"
         class="mySwiper"

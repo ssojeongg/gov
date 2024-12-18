@@ -5,10 +5,14 @@
       <div class="inner2">
         <div class="banner">
         <swiper
+<<<<<<< HEAD
     :breakpoints="{
       767:{slidesPerView:'5'},
       300:{slidesPerView:'1'},
       }"
+=======
+    :slides-per-view="5"
+>>>>>>> 2f78274e78f826f0689cb8adfa7538b20e1b8971
     :space-between="20"
     @swiper="onSwiper"
     @slideChange="onSlideChange"

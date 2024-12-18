@@ -24,7 +24,11 @@ const routes = [
 ];
 
 const router = createRouter({
+<<<<<<< HEAD
   history : createWebHistory('/gov/'),
+=======
+  history : createWebHistory('/'),
+>>>>>>> 2f78274e78f826f0689cb8adfa7538b20e1b8971
   routes
 });
 

@@ -6,6 +6,7 @@
       </div>
       <div class="arrow">
         <div class="arrow1">
+<<<<<<< HEAD
           <p><span>01.</span>&nbsp;<small>회원선택</small></p>
         </div>
         <div class="arrow2">
@@ -16,6 +17,18 @@
         </div>
         <div class="arrow4">
           <p><span>04</span>&nbsp;<small>회원가입 완료</small></p>
+=======
+          <p>01.&nbsp;<small>회원선택</small></p>
+        </div>
+        <div class="arrow2">
+          <p>02.&nbsp;<small>약관동의</small></p>
+        </div>
+        <div class="arrow3">
+          <p>03.&nbsp;<small>회원정보 입력</small></p>
+        </div>
+        <div class="arrow4">
+          <p>04.&nbsp;<small>회원가입 완료</small></p>
+>>>>>>> 2f78274e78f826f0689cb8adfa7538b20e1b8971
         </div>
       </div>
       <div class="content_box">

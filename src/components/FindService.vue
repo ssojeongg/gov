@@ -9,15 +9,22 @@
         </a>
       </div>
       <swiper
+<<<<<<< HEAD
+=======
+    :slides-per-view="8"
+>>>>>>> 2f78274e78f826f0689cb8adfa7538b20e1b8971
     :spaceBetween="30"
         :pagination="{
           clickable: true,
         }"
         :modules="modules"
+<<<<<<< HEAD
          :breakpoints="{
           767:{slidesPerView:'8'},
           300:{slidesPerView:'3'},
          }"
+=======
+>>>>>>> 2f78274e78f826f0689cb8adfa7538b20e1b8971
         class="mySwiper"
   >
     <swiper-slide>
